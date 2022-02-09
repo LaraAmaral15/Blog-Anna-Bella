@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-color: #d2d2c1;
+    font: 17px Arial, Helvetica, sans-serif;
+}
+.cabecalho{
+    display: flex;
+    flex-direction: column;
+    background-color: #c5c5b2;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    text-transform: uppercase;
+    padding: 35px;
+ }
+
+.menu-itens{
+    font-size: 1.5em;
+    color: #4b566a;
+    font-weight: bold;
+}
+
+.menu-itens:hover{
+    color: #647188;
+}
+
+main{
+    background-color: #e8e8d9;
+    margin: 15px;
+}
+
+.titulo{
+    padding: 10px;
+    color: #828271;
+    font-size: 2em;
+}
+
+.paragrafo{
+    padding: 10px;
+}
+
+.imagens-campanha{
+    padding: 5px 0px 5px 20px;
+}
+
+.texto-imagens-campanhas{
+    color:#a0a095;
+    padding: 10px 0px 10px 250px;
+}
+
+.rodape{
+    display: flex;
+    color: black;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto-rodape{
+    text-align: center;
+    padding-bottom: 10px;
+}
